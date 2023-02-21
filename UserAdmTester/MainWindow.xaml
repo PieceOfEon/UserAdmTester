@@ -1,0 +1,17 @@
+﻿<Window x:Class="UserAdmTester.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserAdmTester"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" x:Name="window"
+        mc:Ignorable="d"
+        
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Height="208" Width="267" Content="TeamLead" HorizontalAlignment="Left" VerticalAlignment="Center" Click="Button_Click"/>
+        <Button Height="133" Width="266" Content="Developer" HorizontalAlignment="Left" Margin="267,0,0,0" VerticalAlignment="Center" Click="Button_Click_1" Background="#FF4653C5" BorderBrush="#FF41158E"/>
+        <Button Height="92" Width="267" Content="Tester" HorizontalAlignment="Left" Margin="533,0,0,0" VerticalAlignment="Center" Click="Button_Click_2" Background="#FFA74444"/>
+    </Grid>
+</Window>
